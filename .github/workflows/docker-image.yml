@@ -40,7 +40,7 @@ jobs:
         gzip -c idle-chars-webui-arm64.tar > idle-chars-webui-arm64.tar.gz
         
         # 显示文件大小
-        ls -lh idle-charts-webui-arm64.tar*
+        ls -lh idle-chars-webui-arm64.tar*
 
     - name: 上传到 Actions Artifacts（可下载）
       uses: actions/upload-artifact@v4
