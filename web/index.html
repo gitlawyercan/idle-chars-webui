@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Idle Chars - 游戏助手</title>
+    <link rel="stylesheet" href="css/game.css">
+</head>
+<body>
+    <header id="app-header">
+        <div class="header-inner">
+            <div class="header-left">
+                <h1 class="app-title">⚔️ Idle Chars <span class="title-sub">游戏助手</span></h1>
+            </div>
+            <div class="header-right">
+                <div class="user-status">
+                    <span class="dot" id="statusDot"></span>
+                    <span id="statusText">就绪</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="app-layout">
+        <aside id="sidebar">
+            <div class="nav-section">
+                <div class="nav-section-title">📋 功能模块</div>
+                <ul id="module-nav">
+                    <!-- 由 app.js 动态生成 -->
+                </ul>
+            </div>
+            <div class="nav-section" style="border-top:1px solid var(--border-color);padding-top:12px;margin-top:12px;">
+                <div class="nav-section-title">💡 提示</div>
+                <div style="padding:0 12px;font-size:12px;color:var(--text-muted);line-height:1.6;">
+                    数据保存在浏览器本地<br>
+                    关闭页面不会丢失
+                </div>
+            </div>
+        </aside>
+
+        <main id="main-content">
+            <div id="module-container">
+                <div class="loading">
+                    <div class="spinner"></div>
+                    <p>正在加载...</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- 数据映射表 -->
+    <script src="js/data/skill-map.js"></script>
+    <script src="js/data/item-map.js"></script>
+    <script src="js/data/combat-map.js"></script>
+
+    <!-- API 客户端 -->
+    <script src="js/api/client.js"></script>
+
+    <!-- 功能模块 -->
+    <script src="js/modules/accounts.js"></script>
+    <script src="js/modules/stats.js"></script>
+    <script src="js/modules/inventory.js"></script>
+    <script src="js/modules/skills.js"></script>
+    <script src="js/modules/api-data.js"></script>
+    <script src="js/modules/icons.js"></script>
+    <script src="js/modules/cycle-collect.js"></script>
+
+    <!-- 主应用 -->
+    <script src="js/app.js"></script>
+</body>
+</html>

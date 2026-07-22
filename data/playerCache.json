@@ -1,0 +1,480 @@
+{
+  "52743853@qq.com": {
+    "data": {
+      "id": 538,
+      "name": "大伐木家",
+      "avatarKey": "mage_001",
+      "renameCount": 0,
+      "gold": 22725917,
+      "diamonds": 0,
+      "marketOrderLimit": 5,
+      "maxHp": 100,
+      "maxMp": 100,
+      "combatLevel": 1,
+      "totalLevel": 341,
+      "actionSkills": [
+        {
+          "actionSkillId": 1,
+          "level": 98,
+          "xp": 563596,
+          "totalXp": 8376870,
+          "xpNext": 639157
+        },
+        {
+          "actionSkillId": 2,
+          "level": 79,
+          "xp": 106873,
+          "totalXp": 2276720,
+          "xpNext": 130818
+        },
+        {
+          "actionSkillId": 4,
+          "level": 62,
+          "xp": 34715,
+          "totalXp": 898539,
+          "xpNext": 46561
+        },
+        {
+          "actionSkillId": 5,
+          "level": 81,
+          "xp": 14244,
+          "totalXp": 2455541,
+          "xpNext": 151391
+        },
+        {
+          "actionSkillId": 6,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 7,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 8,
+          "level": 1,
+          "xp": 57,
+          "totalXp": 57,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 9,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 10,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 12,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 13,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 14,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 15,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 16,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 17,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 18,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 19,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 20,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 21,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 22,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 23,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 24,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 25,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 26,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        },
+        {
+          "actionSkillId": 27,
+          "level": 1,
+          "xp": 0,
+          "totalXp": 0,
+          "xpNext": 282
+        }
+      ],
+      "learnedCombatSkills": [],
+      "equippedCombatSkillIds": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "equipments": {
+        "body": 43506,
+        "boots": 44700,
+        "farming": 40700,
+        "gloves": 43906,
+        "head": 43106,
+        "hunting": 40300,
+        "legs": 44306,
+        "mining": 41500,
+        "woodcutting": 41100
+      },
+      "consumable": {
+        "1": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-22T13:40:08.932678957Z",
+            "cooldownEndedAt": "2026-07-22T13:43:08.932678957Z"
+          },
+          {
+            "itemId": 79,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-22T13:40:08.932678957Z",
+            "cooldownEndedAt": "2026-07-22T13:43:08.932678957Z"
+          },
+          null
+        ],
+        "2": [
+          {
+            "itemId": 79,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-19T04:36:21.966997022Z",
+            "cooldownEndedAt": "2026-07-19T04:39:21.966997022Z"
+          },
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-19T04:36:21.966997022Z",
+            "cooldownEndedAt": "2026-07-19T04:39:21.966997022Z"
+          },
+          null
+        ],
+        "4": [
+          {
+            "itemId": 79,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-20T09:11:53.25063604Z",
+            "cooldownEndedAt": "2026-07-20T09:14:53.25063604Z"
+          },
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-20T09:11:53.25063604Z",
+            "cooldownEndedAt": "2026-07-20T09:14:53.25063604Z"
+          },
+          null
+        ],
+        "5": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-22T13:42:15.388037475Z",
+            "cooldownEndedAt": "2026-07-22T13:45:15.388037475Z"
+          },
+          {
+            "itemId": 79,
+            "qty": 0,
+            "cooldownStartedAt": "2026-07-22T13:42:15.388037475Z",
+            "cooldownEndedAt": "2026-07-22T13:45:15.388037475Z"
+          },
+          null
+        ],
+        "6": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": null,
+            "cooldownEndedAt": null
+          },
+          null,
+          null
+        ],
+        "7": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": null,
+            "cooldownEndedAt": null
+          },
+          null,
+          null
+        ],
+        "8": [
+          null,
+          null,
+          null
+        ],
+        "10": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": null,
+            "cooldownEndedAt": null
+          },
+          null,
+          null
+        ],
+        "12": [
+          {
+            "itemId": 63,
+            "qty": 0,
+            "cooldownStartedAt": null,
+            "cooldownEndedAt": null
+          },
+          null,
+          null
+        ]
+      },
+      "tasks": {
+        "current": null,
+        "queue": null,
+        "queueLimit": 6,
+        "offlineLimitExtraHours": 2
+      },
+      "stats": {
+        "hp": 100,
+        "maxHp": 100,
+        "mp": 100,
+        "maxMp": 100,
+        "attackInterval": 5000,
+        "attackRange": 1,
+        "haste": 0,
+        "physicalAttack": 10,
+        "magicAttack": 10,
+        "physicalDefense": 10,
+        "magicDefense": 10,
+        "block": 0,
+        "physicalHitRate": 0,
+        "magicHitRate": 0,
+        "hitRate": 0,
+        "dodgeRate": 0,
+        "versatility": 0,
+        "physicalDodge": 0,
+        "magicDodge": 0,
+        "critRate": 0,
+        "critDamage": 0.5,
+        "physicalFinalDamageBonus": 0,
+        "magicalFinalDamageBonus": 0,
+        "finalDamageTakenBonus": 0,
+        "fireDamage": 0,
+        "frostDamage": 0,
+        "lightningDamage": 0,
+        "holyDamage": 0,
+        "fireResistance": 0,
+        "frostResistance": 0,
+        "lightningResistance": 0,
+        "holyResistance": 0,
+        "healingPower": 0,
+        "woodcuttingEfficiency": 1.211681,
+        "miningEfficiency": 1.021681,
+        "huntingEfficiency": 0.851681,
+        "farmingEfficiency": 1.041681,
+        "cookingEfficiency": 1,
+        "blacksmithingEfficiency": 1,
+        "alchemyEfficiency": 1,
+        "enhancementEfficiency": 0,
+        "tailoringEfficiency": 1,
+        "inscriptionEfficiency": 1,
+        "woodcuttingEfficiencyT1": 0,
+        "woodcuttingEfficiencyT2": 0,
+        "woodcuttingEfficiencyT3": 0,
+        "woodcuttingEfficiencyT4": 0,
+        "miningEfficiencyT1": 0,
+        "miningEfficiencyT2": 0,
+        "miningEfficiencyT3": 0,
+        "miningEfficiencyT4": 0,
+        "huntingEfficiencyT1": 0,
+        "huntingEfficiencyT2": 0,
+        "huntingEfficiencyT3": 0,
+        "huntingEfficiencyT4": 0,
+        "farmingEfficiencyT1": 0,
+        "farmingEfficiencyT2": 0,
+        "farmingEfficiencyT3": 0,
+        "farmingEfficiencyT4": 0,
+        "cookingEfficiencyT1": 0,
+        "cookingEfficiencyT2": 0,
+        "cookingEfficiencyT3": 0,
+        "cookingEfficiencyT4": 0,
+        "blacksmithingEfficiencyT1": 0,
+        "blacksmithingEfficiencyT2": 0,
+        "blacksmithingEfficiencyT3": 0,
+        "blacksmithingEfficiencyT4": 0,
+        "alchemyEfficiencyT1": 0,
+        "alchemyEfficiencyT2": 0,
+        "alchemyEfficiencyT3": 0,
+        "alchemyEfficiencyT4": 0,
+        "enhancementEfficiencyT1": 0,
+        "enhancementEfficiencyT2": 0,
+        "enhancementEfficiencyT3": 0,
+        "enhancementEfficiencyT4": 0,
+        "tailoringEfficiencyT1": 0,
+        "tailoringEfficiencyT2": 0,
+        "tailoringEfficiencyT3": 0,
+        "tailoringEfficiencyT4": 0,
+        "inscriptionEfficiencyT1": 0,
+        "inscriptionEfficiencyT2": 0,
+        "inscriptionEfficiencyT3": 0,
+        "inscriptionEfficiencyT4": 0,
+        "woodcuttingProduction": 3.453365,
+        "miningProduction": 3.2633650000000003,
+        "huntingProduction": 3.0933650000000004,
+        "farmingProduction": 3.283365,
+        "cookingProduction": 0,
+        "blacksmithingProduction": 0,
+        "alchemyProduction": 0,
+        "enhancementProduction": 0,
+        "tailoringProduction": 0,
+        "inscriptionProduction": 0,
+        "xpGain": 0.42000000000000004,
+        "combatGoldGain": 2,
+        "combatDropGain": 0,
+        "luck": 30
+      },
+      "activeEffects": [
+        {
+          "effectId": 12013,
+          "sourceType": "community_buff",
+          "sourceId": 0,
+          "stacks": 1,
+          "buffId": "community_buff:experience",
+          "startedAt": "2026-07-20T02:29:38.809336128Z",
+          "expiresAt": "2026-07-30T14:49:09.406Z"
+        },
+        {
+          "effectId": 1132,
+          "sourceType": "world_buff",
+          "sourceId": 1132,
+          "stacks": 1,
+          "startedAt": "2026-05-21T06:35:28Z",
+          "expiresAt": null
+        }
+      ],
+      "inventory": [
+        {
+          "itemId": 79,
+          "qty": 6198
+        },
+        {
+          "itemId": 63,
+          "qty": 6442
+        },
+        {
+          "itemId": 9001,
+          "qty": 466
+        },
+        {
+          "itemId": 67,
+          "qty": 486
+        },
+        {
+          "itemId": 18,
+          "qty": 377
+        },
+        {
+          "itemId": 3,
+          "qty": 41810
+        },
+        {
+          "itemId": 103,
+          "qty": 4267
+        },
+        {
+          "itemId": 64,
+          "qty": 481
+        }
+      ]
+    },
+    "savedAt": 1784730639863
+  }
+}

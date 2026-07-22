@@ -1,0 +1,16 @@
+{
+  "name": "idle-chars-webui-server",
+  "version": "1.0.0",
+  "description": "Idle Chars Game 助手后端服务器",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

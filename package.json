@@ -1,0 +1,11 @@
+{
+  "name": "idle-chars-webui",
+  "version": "1.0.0",
+  "description": "Idle Chars Game WebUI - 游戏助手",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --watch server/index.js",
+    "docker:build": "docker build -t idle-chars-webui .",
+    "docker:run": "docker run -d -p 8080:3000 --name idle-chars-webui -v $(pwd)/server/data:/app/server/data idle-chars-webui"
+  }
+}

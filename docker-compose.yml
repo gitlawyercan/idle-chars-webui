@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  idle-chars-webui:
+    build: .
+    container_name: idle-chars-webui
+    ports:
+      - "3000:3000"
+    volumes:
+      # 持久化数据（Token 和缓存）
+      - ./data:/app/server/data
+      # 可选：如果 textures 很大，可以挂载外部目录
+      # - ./textures:/app/textures
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+    restart: unless-stopped
+    # 资源限制
+    deploy:
+      resources:
+        limits:
+          memory: 512M
+          cpus: '0.5'
