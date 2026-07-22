@@ -1,0 +1,65 @@
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ "main" ]      # 推送 main 分支时触发
+    tags:
+      - 'v*'                   # 推送 v1.0.0 标签时触发
+  workflow_dispatch:           # 支持手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: 检出代码
+      uses: actions/checkout@v4
+
+    - name: 设置 QEMU（支持多架构构建）
+      uses: docker/setup-qemu-action@v3
+
+    - name: 设置 Docker Buildx
+      uses: docker/setup-buildx-action@v3
+
+    - name: 构建 ARM64 Docker 镜像
+      run: |
+        # 构建 ARM64 架构（适配 OpenWrt）
+        docker buildx build \
+          --platform linux/arm64 \
+          -t idle-chars-webui:latest \
+          --load .
+        
+        echo "✅ ARM64 镜像构建完成"
+
+    - name: 导出为 tar 包
+      run: |
+        # 打包成 tar 文件
+        docker save -o idle-chars-webui-arm64.tar idle-chars-webui:latest
+        
+        # 压缩（体积更小，传输更快）
+        gzip -c idle-chars-webui-arm64.tar > idle-chars-webui-arm64.tar.gz
+        
+        # 显示文件大小
+        ls -lh idle-charts-webui-arm64.tar*
+
+    - name: 上传到 Actions Artifacts（可下载）
+      uses: actions/upload-artifact@v4
+      with:
+        name: idle-chars-webui-arm64
+        path: |
+          idle-chars-webui-arm64.tar
+          idle-chars-webui-arm64.tar.gz
+        retention-days: 7  # 保留 7 天
+
+    # 如果有 Docker Hub 账号，可以推送
+    # - name: 登录 Docker Hub
+    #   uses: docker/login-action@v3
+    #   with:
+    #     username: ${{ secrets.DOCKER_USERNAME }}
+    #     password: ${{ secrets.DOCKER_PASSWORD }}
+    #
+    # - name: 推送到 Docker Hub
+    #   run: |
+    #     docker tag idle-chars-webui:latest ${{ secrets.DOCKER_USERNAME }}/idle-chars-webui:latest
+    #     docker push ${{ secrets.DOCKER_USERNAME }}/idle-chars-webui:latest
+
